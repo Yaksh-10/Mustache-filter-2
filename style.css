@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,800;1,400&display=swap');
+body{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+h1{
+    font-size: 27px !important;
+}
+button:hover{
+    background-color: aqua !important;
+    color: black !important;
+}
+button{
+    border: none;
+}
+canvas{
+    animation-name: ex;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-style: ridge;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+@keyframes ex{
+    from{box-shadow: 1px 1px 38px rgb(255, 188, 64);}
+    to{box-shadow: 2px 2px 40px rgb(255, 223, 66);}
+}
